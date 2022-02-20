@@ -1,0 +1,27 @@
+.menu {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+
+  &__availability {
+    &__label {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__battery {
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &__label{
+      padding: 0 5px;
+    }
+
+    &__input {
+    }
+  }
+}

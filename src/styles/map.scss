@@ -1,0 +1,47 @@
+@import '~leaflet/dist/leaflet.css';
+@import '~react-leaflet-markercluster/dist/styles.min.css';
+
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 700px;
+}
+
+.markercluster-map { height: 90vh; }
+
+.cluster-group-icon {
+  position: absolute;
+  right: -5px;
+  top: -8px;
+}
+
+.cluster-group-icon div {
+  align-items: center;
+  border-radius: 15px;
+  background-color: #c0bfbf;
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+  font-size: 13px;
+}
+
+
+.cluster-icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.active-icon {
+  background-image: url("../resources/CarIconActive.svg");
+}
+
+.disabled-icon {
+  background-image: url("../resources/CarIconDisabled.svg");
+}
